@@ -199,7 +199,15 @@ const login_new = async (req, res) => {
               email: get_user.email,
               name: get_user.name,
               type: user.type,
-              img: get_user.img
+              img: get_user.img,
+              lastName: get_user.lastName,
+              gender: get_user.gender,
+              nic: get_user.nic,
+              gender: get_user.gender,
+              contactNo: get_user.contactNo,
+              faculty: get_user.faculty,
+              studentID: get_user.studentID,
+              
           },
           token,
           location: get_user.name,
@@ -215,7 +223,14 @@ const login_new = async (req, res) => {
               email: get_user.email,
               name: get_user.name,
               type: user.type,
-              img: get_user.img
+              img: get_user.img,
+              lastName: get_user.lastName,
+              nic: get_user.nic,
+              contactNo: get_user.contactNo,
+              address: get_user.address,
+              department: get_user.department,
+              jobRole: get_user.jobRole,
+
           },
           token,
           location: get_user.name,
@@ -231,7 +246,14 @@ const login_new = async (req, res) => {
               email: get_user.email,
               name: get_user.name,
               type: user.type,
-              img: get_user.img
+              img: get_user.img,
+              lastName: get_user.lastName,
+              nic: get_user.nic,
+              contactNo: get_user.contactNo,
+              address: get_user.address,
+              company: get_user.company,
+              jobTitle: get_user.jobTitle,
+              graduatedYear: get_user.graduatedYear,
           },
           token,
           location: get_user.name,
@@ -247,7 +269,11 @@ const login_new = async (req, res) => {
               email: get_user.email,
               name: get_user.name,
               type: user.type,
-              img: get_user.img
+              img: get_user.img,
+              lastName: get_user.lastName,
+              nic: get_user.nic,
+              location: get_user.location,
+              partnerType: get_user.partnerType
           },
           token,
           location: get_user.name,
@@ -271,7 +297,7 @@ const login_new = async (req, res) => {
 
   }
 
-  
+
 
 }
 
